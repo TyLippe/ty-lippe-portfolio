@@ -1,5 +1,9 @@
-import Image from "next/image";
+import { Navbar } from "./components/Navbar/Navbar";
 
 export default function Home() {
-  return <div>Ty Lippe</div>;
+  return (
+    <div className="home-container">
+      <Navbar />
+    </div>
+  );
 }
