@@ -9,3 +9,7 @@
 .footer-container .MuiSvgIcon-root:hover {
   fill: dodgerblue;
 }
+
+.footer-container .MuiSvgIcon-root {
+  scale: 1.25;
+}

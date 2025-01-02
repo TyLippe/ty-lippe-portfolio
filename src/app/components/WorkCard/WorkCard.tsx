@@ -9,6 +9,8 @@ import {
   Typography,
 } from "@mui/material";
 
+import "./WorkCard.css";
+
 export type Project = {
   id: number;
   name: string;
