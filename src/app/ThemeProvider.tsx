@@ -6,7 +6,14 @@ import React from "react";
 
 const theme = createTheme({
   palette: {
-    mode: "dark", // You can change this to "dark" for a dark theme
+    mode: "dark",
+  },
+  typography: {
+    fontFamily: `"Poppins", sans-serif`,
+    fontSize: 14,
+    fontWeightLight: 300,
+    fontWeightRegular: 400,
+    fontWeightMedium: 500,
   },
 });
 

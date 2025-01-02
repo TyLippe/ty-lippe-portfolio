@@ -1,5 +1,5 @@
 .about-container {
-  padding-top: 80px;
+  padding: 120px 24px 0;
   display: flex;
 
   .greeting-container {
