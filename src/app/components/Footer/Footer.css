@@ -1,3 +1,11 @@
-.footer-container {
-  height: 300px;
+.footer-container .MuiAppBar-root {
+  background-color: transparent !important;
+  backdrop-filter: blur(2px);
+  box-shadow: none;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-container .MuiSvgIcon-root:hover {
+  fill: dodgerblue;
 }
