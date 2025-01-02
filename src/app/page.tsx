@@ -7,11 +7,13 @@ import { Footer } from "./components/Footer/Footer";
 export default function Home() {
   return (
     <div className="home-container">
-      <Navbar />
-      <About />
-      <Work />
-      <Contact />
-      <Footer />
+      <div className="svg-background">
+        <Navbar />
+        <About />
+        <Work />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }
