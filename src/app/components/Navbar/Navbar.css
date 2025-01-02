@@ -7,6 +7,10 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
+  .MuiTypography-root {
+    font-size: 32px;
+  }
+
   .MuiTypography-root:hover {
     cursor: default;
   }
@@ -23,5 +27,12 @@
 
   .MuiButton-outlined:hover {
     background-color: white !important;
+  }
+
+  .MuiBox-root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
   }
 }
