@@ -19,8 +19,8 @@ export const Navbar = () => {
           <Link href="#About" passHref>
             <Button color="inherit">About</Button>
           </Link>
-          <Link href={"#Projects"} passHref>
-            <Button color="inherit">Projects</Button>
+          <Link href={"#Work"} passHref>
+            <Button color="inherit">Work</Button>
           </Link>
           <Link href={"#Contact"} passHref>
             <Button color="inherit" variant="outlined">

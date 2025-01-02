@@ -1,0 +1,18 @@
+.about-container {
+  margin-top: 80px;
+  display: flex;
+
+  .greeting-container {
+    width: 50%;
+    height: 40vh;
+    font-size: 4rem;
+    font-weight: 500;
+  }
+
+  .description-container {
+    width: 50%;
+    height: 40vh;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+}

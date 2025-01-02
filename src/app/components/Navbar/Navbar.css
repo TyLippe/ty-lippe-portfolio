@@ -1,6 +1,6 @@
 .MuiAppBar-root {
   background-color: transparent !important;
-  backdrop-filter: blur(2px); 
+  backdrop-filter: blur(2px);
   box-shadow: none;
   transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -11,7 +11,7 @@
 }
 
 .MuiButtonBase-root:hover {
-  color: dodgerblue ;
+  color: dodgerblue;
 }
 
 .MuiButton-outlined {
