@@ -9,7 +9,7 @@ const theme = createTheme({
     mode: "dark",
   },
   typography: {
-    fontFamily: `"Poppins", sans-serif`,
+    fontFamily: `"Montserrat", sans-serif`,
     fontSize: 14,
     fontWeightLight: 300,
     fontWeightRegular: 400,

@@ -1,14 +1,30 @@
 .navbar-container {
   .MuiAppBar-root {
-    background-color: transparent !important;
-    backdrop-filter: blur(2px);
+    background-color: rgba(5, 5, 5, 0.5);
+    backdrop-filter: blur(5px);
     box-shadow: none;
     transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background-image: none !important;
+  }
+
+  .MuiToolbar-root {
+    display: flex;
+    justify-content: space-between;
+    width: var(--section-width);
+    margin: 0 auto;
+  }
+
+  @media (max-width: 1400px) {
+    .MuiToolbar-root {
+      width: 100%;
+    }
   }
 
   .MuiTypography-root {
     font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
   }
 
   .MuiTypography-root:hover {
