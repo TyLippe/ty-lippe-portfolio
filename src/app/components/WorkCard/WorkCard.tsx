@@ -9,8 +9,6 @@ import {
   Typography,
 } from "@mui/material";
 
-import "./WorkCard.css";
-
 export type Project = {
   id: number;
   name: string;
@@ -26,43 +24,46 @@ export const WorkCard = ({ projectData }: { projectData: Project[] }) => {
       {projectData?.length > 0 &&
         projectData.map((project: Project) => {
           return (
-            <Box sx={{ maxWidth: 300 }} key={project.id}>
-              <Card variant="outlined">
-                <CardContent>
-                  <Typography variant="h5" component="div">
-                    {project.name}
-                  </Typography>
-                  <Typography sx={{ color: "text.secondary", mb: 1.5 }}>
-                    {project.description}
-                  </Typography>
-                </CardContent>
+            <Box sx={{ maxWidth: 420 }} key={project.id}>
+              <Card variant="outlined" className="work-card">
                 <CardMedia
-                  sx={{ height: 140 }}
-                  image={project.image}
+                  sx={{ height: 200 }}
+                  image={`/static/assets/img/${project.image}`}
                   title={project.name}
+                  className="work-card-media"
                 />
-                <CardActions>
-                  <Link
-                    href={project.githubURL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    passHref
-                  >
-                    <Button size="small" component="a">
-                      View Source Code
-                    </Button>
-                  </Link>
-                  <Link
-                    href={project.websiteURL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    passHref
-                  >
-                    <Button size="small" component="a">
-                      Website
-                    </Button>
-                  </Link>
-                </CardActions>
+                <div className="work-card-content">
+                  <CardContent>
+                    <Typography variant="h5" component="div">
+                      {project.name}
+                    </Typography>
+                    <Typography sx={{ color: "text.secondary", mb: 1.5 }}>
+                      {project.description}
+                    </Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Link
+                      href={project.githubURL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      passHref
+                    >
+                      <Button size="small" component="a">
+                        View Source Code
+                      </Button>
+                    </Link>
+                    <Link
+                      href={project.websiteURL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      passHref
+                    >
+                      <Button size="small" component="a">
+                        Visit Website
+                      </Button>
+                    </Link>
+                  </CardActions>
+                </div>
               </Card>
             </Box>
           );

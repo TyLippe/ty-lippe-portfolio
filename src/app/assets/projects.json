@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "name": "Portfolio",
-    "description": "My personal portfolio website.",
-    "image": "portfolio.png",
+    "name": "Ty Lippe's Portfolio",
+    "description": "My personal portfolio website. Built with NextJS, TypeScript, and TailwindCSS. Features a clean, modern design with a focus on user experience and performance.",
     "websiteURL": "https://tylippe.com",
-    "githubURL": "test.com"
+    "githubURL": "https://github.com/TyLippe/ty-lippe-portfolio",
+    "image": "portfolio.png"
   }
 ]

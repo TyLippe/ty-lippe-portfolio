@@ -1,16 +1,19 @@
 .about-container {
-  padding: 120px 24px 0;
+  padding: 160px 24px 0;
   display: flex;
   justify-content: space-between;
   max-width: var(--section-width);
   margin: 0 auto;
+  align-items: flex-start;
 
-  .greeting-container {
+  .name-container {
     width: 40%;
     height: 40vh;
     font-size: 6rem;
     font-weight: 700;
     letter-spacing: -0.05em;
+    cursor: default;
+    margin-top: -34px;
   }
 
   .description-container {
@@ -18,5 +21,9 @@
     font-size: 1.1rem;
     font-weight: 300;
     max-width: 720px;
+
+    .bold-greeting {
+      font-weight: 600;
+    }
   }
 }

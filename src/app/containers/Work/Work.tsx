@@ -6,7 +6,7 @@ import "./Work.css";
 export const Work = () => {
   return (
     <div className="work-container" id="Work">
-      My work
+      <h2>My Work</h2>
       <WorkCard projectData={projectData} />
     </div>
   );
