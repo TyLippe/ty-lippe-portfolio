@@ -14,5 +14,12 @@
     "websiteURL": "https://tylippe.github.io/commander-finder/",
     "githubURL": "https://github.com/TyLippe/commander-finder",
     "image": "commander-finder.png"
+  },
+  {
+    "id": 3,
+    "name": "Python Mastermind Clone",
+    "description": "A Python implementation of the classic Mastermind game. Features a command-line interface.",
+    "githubURL": "https://github.com/TyLippe/mastermind-clone",
+    "image": "mastermind.png"
   }
 ]

@@ -14,7 +14,7 @@ export type Project = {
   name: string;
   description: string;
   image: string;
-  websiteURL: string;
+  websiteURL?: string | null;
   githubURL: string;
 };
 
@@ -24,7 +24,7 @@ export const WorkCard = ({ projectData }: { projectData: Project[] }) => {
       {projectData?.length > 0 &&
         projectData.map((project: Project) => {
           return (
-            <Box sx={{ maxWidth: 420 }} key={project.id}>
+            <Box key={project.id}>
               <Card variant="outlined" className="work-card">
                 <CardMedia
                   sx={{ height: 200 }}
@@ -52,16 +52,18 @@ export const WorkCard = ({ projectData }: { projectData: Project[] }) => {
                         View Source Code
                       </Button>
                     </Link>
-                    <Link
-                      href={project.websiteURL}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      passHref
-                    >
-                      <Button size="small" component="a">
-                        Visit Website
-                      </Button>
-                    </Link>
+                    {project.websiteURL && (
+                      <Link
+                        href={project.websiteURL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        passHref
+                      >
+                        <Button size="small" component="a">
+                          Visit Website
+                        </Button>
+                      </Link>
+                    )}
                   </CardActions>
                 </div>
               </Card>
