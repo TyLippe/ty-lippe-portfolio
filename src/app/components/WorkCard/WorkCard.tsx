@@ -20,7 +20,7 @@ export type Project = {
 
 export const WorkCard = ({ projectData }: { projectData: Project[] }) => {
   return (
-    <>
+    <div className="work-cards-container">
       {projectData?.length > 0 &&
         projectData.map((project: Project) => {
           return (
@@ -68,6 +68,6 @@ export const WorkCard = ({ projectData }: { projectData: Project[] }) => {
             </Box>
           );
         })}
-    </>
+    </div>
   );
 };

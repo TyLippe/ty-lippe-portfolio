@@ -6,5 +6,13 @@
     "websiteURL": "https://tylippe.com",
     "githubURL": "https://github.com/TyLippe/ty-lippe-portfolio",
     "image": "portfolio.png"
+  },
+  {
+    "id": 2,
+    "name": "Commander Finder",
+    "description": "A web application that allows users to search for Magic: The Gathering commander cards. Built with Angular, TypeScript, and the Scryfall API.",
+    "websiteURL": "https://tylippe.github.io/commander-finder/",
+    "githubURL": "https://github.com/TyLippe/commander-finder",
+    "image": "commander-finder.png"
   }
 ]
