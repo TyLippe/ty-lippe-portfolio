@@ -10,7 +10,7 @@ export const Greeting = () => {
     greetings[Math.floor(Math.random() * greetings.length)];
 
   return (
-    <div className="greetings-container" id="About">
+    <div className="greetings-container" id="Greetings">
       <div className="image-container">
         <Image
           src={"/static/assets/img/developer.png"}

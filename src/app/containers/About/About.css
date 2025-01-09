@@ -1,0 +1,15 @@
+.about-container {
+  padding: 150px 24px 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--section-width);
+  margin: 0 auto;
+  align-items: flex-start;
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 24px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.75);
+  }
+}
