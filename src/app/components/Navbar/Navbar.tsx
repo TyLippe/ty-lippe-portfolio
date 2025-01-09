@@ -10,7 +10,7 @@ export const Navbar = () => {
         <Toolbar className="toolbar">
           <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
             <span style={{ color: "inherit" }}>Ty</span>{" "}
-            <span style={{ color: "dodgerblue" }}>Lippe</span>
+            <span style={{ color: "#3144f6" }}>Lippe</span>
           </Typography>
           <Box>
             <Link href="#About" passHref>

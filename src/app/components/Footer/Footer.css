@@ -7,7 +7,7 @@
 }
 
 .footer-container .MuiSvgIcon-root:hover {
-  fill: dodgerblue;
+  fill: var(--blue);
 }
 
 .footer-container .MuiSvgIcon-root {

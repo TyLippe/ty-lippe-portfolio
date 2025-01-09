@@ -32,11 +32,11 @@
   }
 
   .MuiButtonBase-root:hover {
-    color: dodgerblue;
+    color: var(--blue);
   }
 
   .MuiButton-outlined {
-    background-color: dodgerblue !important;
+    background-color: var(--blue) !important;
     border: none !important;
     border-radius: 16px !important;
   }

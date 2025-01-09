@@ -1,12 +1,23 @@
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .about-container {
-  padding: 160px 24px 0;
+  padding: 200px 24px 0;
   display: flex;
   justify-content: space-between;
   max-width: var(--section-width);
   margin: 0 auto;
   align-items: flex-start;
 
-  .name-container {
+  .image-container {
     width: 40%;
     height: 40vh;
     font-size: 6rem;
@@ -14,16 +25,27 @@
     letter-spacing: -0.05em;
     cursor: default;
     margin-top: -34px;
+    z-index: 100;
   }
 
-  .description-container {
+  .greeting-container {
     width: 50%;
-    font-size: 1.1rem;
-    font-weight: 300;
+    font-size: 5rem;
     max-width: 720px;
 
-    .bold-greeting {
-      font-weight: 600;
+    .semibold {
+      font-weight: 500;
+    }
+    .bold {
+      font-weight: 700;
+    }
+
+    .animated-text {
+      display: inline-block;
+      opacity: 0;
+      animation: slideIn 2s forwards;
+      color: var(--blue);
+      z-index: 0;
     }
   }
 }

@@ -1,4 +1,4 @@
 {
-  "greeting": "Hey there!",
+  "greetings": ["Welcome!", "Hey there!", "Hello!", "Greetings!", "Howdy!"],
   "description": "I'm a Full-Stack Developer with a passion for crafting exceptional digital experiences. Over the past 5 years, I've honed my skills in building high-quality, user-centric web applications that are both robust and scalable. I thrive in collaborative environments and have a proven track record of leading cross-functional teams to success. My expertise encompasses a diverse range of technologies, including ReactJS, TypeScript, Angular, Python, AWS, NodeJS, Redux, MongoDB, SQL, and Jest. I'm always eager to learn and grow, and I'm excited to contribute my skills to innovative and challenging projects. Let's connect and discuss how I can help you achieve your goals!"
 }
