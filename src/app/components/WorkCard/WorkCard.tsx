@@ -1,13 +1,6 @@
 import Link from "next/link";
-import {
-  Button,
-  Box,
-  Card,
-  CardActions,
-  CardContent,
-  CardMedia,
-  Typography,
-} from "@mui/material";
+import Image from "next/image";
+import { Button, Container, Typography } from "@mui/material";
 
 export type Project = {
   id: number;
@@ -15,33 +8,57 @@ export type Project = {
   description: string;
   image: string;
   websiteURL?: string | null;
-  githubURL: string;
+  githubURL?: string | null;
 };
 
 export const WorkCard = ({ projectData }: { projectData: Project[] }) => {
   return (
     <div className="work-cards-container">
       {projectData?.length > 0 &&
-        projectData.map((project: Project) => {
+        projectData.map((project: Project, index: number) => {
+          const isOdd = index % 2 !== 0;
           return (
-            <Box key={project.id}>
-              <Card variant="outlined" className="work-card">
-                <CardMedia
-                  sx={{ height: 200 }}
-                  image={`/static/assets/img/${project.image}`}
-                  title={project.name}
-                  className="work-card-media"
-                />
-                <div className="work-card-content">
-                  <CardContent>
-                    <Typography variant="h5" component="div">
-                      {project.name}
-                    </Typography>
-                    <Typography sx={{ color: "text.secondary", mb: 1.5 }}>
-                      {project.description}
-                    </Typography>
-                  </CardContent>
-                  <CardActions>
+            <Container
+              key={project.id}
+              className="work-card-row"
+              sx={{
+                display: "flex",
+                mb: 2,
+                flexDirection: isOdd ? "row-reverse" : "row",
+              }}
+            >
+              <Image
+                src={`/static/assets/img/${project.image}`}
+                alt={project.name}
+                className="work-card-image"
+                width={360}
+                height={280}
+              />
+              <div
+                className="work-card-content"
+                style={{
+                  paddingRight: isOdd ? "12px" : "0",
+                  paddingLeft: isOdd ? "0" : "12px",
+                }}
+              >
+                <Typography
+                  variant="h5"
+                  component="div"
+                  className="work-card-title"
+                >
+                  {project.name}
+                </Typography>
+                <Typography
+                  sx={{ color: "text.secondary", mb: 1.5 }}
+                  className="work-card-description"
+                >
+                  {project.description}
+                </Typography>
+                <div
+                  className="work-card-actions"
+                  style={{ paddingRight: isOdd ? "16px" : "0" }}
+                >
+                  {project.githubURL && (
                     <Link
                       href={project.githubURL}
                       target="_blank"
@@ -52,22 +69,22 @@ export const WorkCard = ({ projectData }: { projectData: Project[] }) => {
                         View Source Code
                       </Button>
                     </Link>
-                    {project.websiteURL && (
-                      <Link
-                        href={project.websiteURL}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        passHref
-                      >
-                        <Button size="small" component="a">
-                          Visit Website
-                        </Button>
-                      </Link>
-                    )}
-                  </CardActions>
+                  )}
+                  {project.websiteURL && (
+                    <Link
+                      href={project.websiteURL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      passHref
+                    >
+                      <Button size="small" component="a">
+                        Visit Website
+                      </Button>
+                    </Link>
+                  )}
                 </div>
-              </Card>
-            </Box>
+              </div>
+            </Container>
           );
         })}
     </div>

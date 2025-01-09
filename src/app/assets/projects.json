@@ -9,6 +9,30 @@
   },
   {
     "id": 2,
+    "name": "ConnectOne",
+    "description": "An internal admin tool built with React and TypeScript, utilizing AWS Amplify for backend services. This application allows administrators to monitor user data and incoming tolling data from GPS coordinates. It also features Turf.js for creating polygons that represent tolling booths.",
+    "image": "connect-one.png"
+  },
+  {
+    "id": 3,
+    "name": "Statements Online",
+    "description": "An internal admin tool built with React and TypeScript, utilizing AWS Amplify for backend services. This application allows administrators to monitor user data and incoming tolling data from GPS coordinates. It also features Turf.js for creating polygons that represent tolling booths.",
+    "image": "statements-online.png"
+  },
+  {
+    "id": 4,
+    "name": "Daily Blueprint",
+    "description": "An internal admin tool built with React and TypeScript, utilizing AWS Amplify for backend services. This application allows administrators to monitor user data and incoming tolling data from GPS coordinates. It also features Turf.js for creating polygons that represent tolling booths.",
+    "image": "daily-blueprint.png"
+  },
+  {
+    "id": 5,
+    "name": "Stanza",
+    "description": "An internal admin tool built with React and TypeScript, utilizing AWS Amplify for backend services. This application allows administrators to monitor user data and incoming tolling data from GPS coordinates. It also features Turf.js for creating polygons that represent tolling booths.",
+    "image": "stanza.png"
+  },
+  {
+    "id": 6,
     "name": "Commander Finder",
     "description": "A web application that allows users to search for Magic: The Gathering commander cards. Built with Angular, TypeScript, and the Scryfall API.",
     "websiteURL": "https://tylippe.github.io/commander-finder/",
@@ -16,7 +40,7 @@
     "image": "commander-finder.png"
   },
   {
-    "id": 3,
+    "id": 7,
     "name": "Python Mastermind Clone",
     "description": "A Python implementation of the classic Mastermind game. Features a command-line interface.",
     "githubURL": "https://github.com/TyLippe/mastermind-clone",
