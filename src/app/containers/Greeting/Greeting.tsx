@@ -2,15 +2,15 @@ import Image from "next/image";
 
 import textAssets from "../../assets/text.json";
 
-import "./About.css";
+import "./Greeting.css";
 
-export const About = () => {
+export const Greeting = () => {
   const greetings = textAssets.greetings;
   const randomGreeting =
     greetings[Math.floor(Math.random() * greetings.length)];
 
   return (
-    <div className="about-container" id="About">
+    <div className="greetings-container" id="About">
       <div className="image-container">
         <Image
           src={"/static/assets/img/developer.png"}

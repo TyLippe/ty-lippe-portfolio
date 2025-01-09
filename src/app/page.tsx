@@ -1,5 +1,5 @@
 import { Work } from "./containers/Work/Work";
-import { About } from "./containers/About/About";
+import { Greeting } from "./containers/Greeting/Greeting";
 import { Contact } from "./containers/Contact/Contact";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Footer } from "./components/Footer/Footer";
@@ -9,7 +9,7 @@ export default function Home() {
     <div className="home-container">
       <div className="svg-background">
         <Navbar />
-        <About />
+        <Greeting />
         <Work />
         <Contact />
         <Footer />
