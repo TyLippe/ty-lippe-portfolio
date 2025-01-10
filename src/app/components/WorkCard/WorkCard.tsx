@@ -32,7 +32,7 @@ export const WorkCard = ({ projectData }: { projectData: Project[] }) => {
                 alt={project.name}
                 className="work-card-image"
                 width={360}
-                height={280}
+                height={120}
               />
               <div
                 className="work-card-content"

@@ -33,6 +33,10 @@
     font-size: 5rem;
     max-width: 720px;
 
+    .greeting {
+      font-family: monospace;
+    }
+
     .semibold {
       font-weight: 500;
     }

@@ -21,7 +21,7 @@ export const Greeting = () => {
         />
       </div>
       <div className="greeting-container">
-        <span className="semibold">{randomGreeting + " "}</span>
+        <span className="semibold greeting">{randomGreeting + " "}</span>
         <span className="animated-text bold">
           <span style={{ color: "white" }}>I am Ty</span> Lippe
         </span>

@@ -16,19 +16,19 @@
   {
     "id": 3,
     "name": "Statements Online",
-    "description": "An internal admin tool built with React and TypeScript, utilizing AWS Amplify for backend services. This application allows administrators to monitor user data and incoming tolling data from GPS coordinates. It also features Turf.js for creating polygons that represent tolling booths.",
+    "description": "A web application developed for First Republic Bank to provide users with easy access to their bank statements. The application allows users to view, download, and manage their bank statements securely and efficiently. It utilizes DynamoDB for storing the statements information, S3 for storing the statement files, and React for creating the user interface.",
     "image": "statements-online.png"
   },
   {
     "id": 4,
     "name": "Daily Blueprint",
-    "description": "An internal admin tool built with React and TypeScript, utilizing AWS Amplify for backend services. This application allows administrators to monitor user data and incoming tolling data from GPS coordinates. It also features Turf.js for creating polygons that represent tolling booths.",
+    "description": "An internal tool for Restoration Hardware, designed to assist retail store workers in managing their daily schedules. This application includes features for organizing tours, handling walk-in customers, and ensuring efficient time management throughout the day. Built with React, it provides an intuitive and user-friendly interface to streamline store operations.",
     "image": "daily-blueprint.png"
   },
   {
     "id": 5,
     "name": "Stanza",
-    "description": "An internal admin tool built with React and TypeScript, utilizing AWS Amplify for backend services. This application allows administrators to monitor user data and incoming tolling data from GPS coordinates. It also features Turf.js for creating polygons that represent tolling booths.",
+    "description": "A React Native mobile application designed to assist patients diagnosed with fibromyalgia. The app provides tools for tracking symptoms, managing medications, and accessing educational resources. It also includes features for setting reminders, logging daily activities, and connecting with support groups to help patients manage their condition more effectively.",
     "image": "stanza.png"
   },
   {
