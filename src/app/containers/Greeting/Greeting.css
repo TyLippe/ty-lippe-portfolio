@@ -12,13 +12,14 @@
 .greetings-container {
   padding: 200px 24px 0;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   max-width: var(--section-width);
   margin: 0 auto;
   align-items: flex-start;
 
   .image-container {
-    width: 40%;
+    width: 100%;
     height: 40vh;
     font-size: 6rem;
     font-weight: 700;
@@ -29,7 +30,7 @@
   }
 
   .greeting-container {
-    width: 50%;
+    width: 100%;
     font-size: 5rem;
     max-width: 720px;
 
@@ -51,5 +52,34 @@
       color: var(--blue);
       z-index: 0;
     }
+  }
+}
+
+@media (min-width: 768px) {
+  .greetings-container {
+    flex-direction: row;
+
+    .image-container {
+      width: 40%;
+    }
+
+    .greeting-container {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .greetings-container {
+    padding: 100px 16px 0;
+  }
+
+  .image-container {
+    display: none;
+  }
+
+  .greeting-container {
+    font-size: 3rem;
+    text-align: center;
   }
 }

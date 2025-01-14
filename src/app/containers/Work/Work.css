@@ -55,3 +55,76 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .work-container {
+    padding: 60px 16px 0;
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+
+    .work-cards-container {
+      img {
+        display: none;
+      }
+
+      .work-card-content {
+        height: auto;
+        padding-left: 0 !important;
+
+        .work-card-title {
+          font-size: 1.25rem;
+          margin-bottom: 12px;
+        }
+
+        .work-card-description {
+          margin-bottom: 12px;
+        }
+
+        .work-card-actions {
+          justify-content: center;
+
+          .MuiButtonBase-root {
+            margin-left: 4px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .work-container {
+    padding: 40px 8px 0;
+
+    h2 {
+      font-size: 1.25rem;
+      margin-bottom: 16px;
+    }
+
+    .work-cards-container {
+      img {
+        height: 150px;
+      }
+
+      .work-card-content {
+        .work-card-title {
+          font-size: 1rem;
+          margin-bottom: 8px;
+        }
+
+        .work-card-description {
+          margin-bottom: 8px;
+        }
+
+        .work-card-actions {
+          .MuiButtonBase-root {
+            margin-left: 2px;
+          }
+        }
+      }
+    }
+  }
+}
