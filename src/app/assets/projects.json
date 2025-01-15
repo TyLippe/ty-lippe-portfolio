@@ -45,5 +45,12 @@
     "description": "A Python implementation of the classic Mastermind game. Features a command-line interface.",
     "githubURL": "https://github.com/TyLippe/mastermind-clone",
     "image": "mastermind.png"
+  },
+  {
+    "id": 8,
+    "name": "Blog Post Server Side Rendering Demo",
+    "description": "A NextJS application that demos using Server Side Rendering to display a list of static blog posts",
+    "githubURL": "https://github.com/TyLippe/ssr-demo-app",
+    "image": "ssr-posts.png"
   }
 ]
