@@ -34,20 +34,28 @@
   {
     "id": 6,
     "name": "Commander Finder",
-    "description": "A web application that allows users to search for Magic: The Gathering commander cards. Built with Angular, TypeScript, and the Scryfall API.",
+    "description": "A web application built with Angular that allows users to search for Magic: The Gathering commander cards. Users can view detailed information about each card, including mana cost, card type, and abilities. The app features a clean, responsive design and provides a seamless user experience for Magic: The Gathering enthusiasts.",
     "websiteURL": "https://tylippe.github.io/commander-finder/",
     "githubURL": "https://github.com/TyLippe/commander-finder",
     "image": "commander-finder.png"
   },
   {
     "id": 7,
+    "name": "Commander Finder API",
+    "description": "A RESTful API built with Express to provide data for the Commander Finder web application. The API allows users to search for Magic: The Gathering commander cards and retrieve detailed information about each card.",
+    "websiteURL": "https://github.com/TyLippe/commander-finder-api",
+    "githubURL": "https://commander-finder-api.onrender.com/",
+    "image": "commander-finder-api.png"
+  },
+  {
+    "id": 8,
     "name": "Python Mastermind Clone",
     "description": "A Python implementation of the classic Mastermind game. Features a command-line interface.",
     "githubURL": "https://github.com/TyLippe/mastermind-clone",
     "image": "mastermind.png"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Blog Post Server Side Rendering Demo",
     "description": "A NextJS application that demos using Server Side Rendering to display a list of static blog posts",
     "githubURL": "https://github.com/TyLippe/ssr-demo-app",
