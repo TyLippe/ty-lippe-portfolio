@@ -6,6 +6,7 @@ export type Project = {
   id: number;
   name: string;
   description: string;
+  technologies: string[];
   image: string;
   websiteURL?: string | null;
   githubURL?: string | null;
@@ -54,6 +55,16 @@ export const WorkCard = ({ projectData }: { projectData: Project[] }) => {
                 >
                   {project.description}
                 </Typography>
+                {project.technologies && (
+                  <div className="work-card-technologies-container">
+                    <h3>Technologies Used:</h3>
+                    <ul className="work-card-technologies">
+                      {project.technologies.map((tech, idx) => (
+                        <li key={idx}>{tech}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
                 <div
                   className="work-card-actions"
                   style={{ paddingRight: isOdd ? "16px" : "0" }}

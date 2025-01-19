@@ -3,6 +3,7 @@
     "id": 1,
     "name": "Ty Lippe's Portfolio",
     "description": "My personal portfolio website. Built with NextJS, TypeScript, and TailwindCSS. Features a clean, modern design with a focus on user experience and performance.",
+    "technologies": ["NextJS", "TypeScript", "TailwindCSS"],
     "websiteURL": "https://tylippe.com",
     "githubURL": "https://github.com/TyLippe/ty-lippe-portfolio",
     "image": "portfolio.png"
@@ -11,30 +12,41 @@
     "id": 2,
     "name": "ConnectOne",
     "description": "An internal admin tool built with React and TypeScript, utilizing AWS Amplify for backend services. This application allows administrators to monitor user data and incoming tolling data from GPS coordinates. It also features Turf.js for creating polygons that represent tolling booths.",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "AWS Amplify",
+      "Turf.js",
+      "mapbox-gl"
+    ],
     "image": "connect-one.png"
   },
   {
     "id": 3,
     "name": "Statements Online",
     "description": "A web application developed for First Republic Bank to provide users with easy access to their bank statements. The application allows users to view, download, and manage their bank statements securely and efficiently. It utilizes DynamoDB for storing the statements information, S3 for storing the statement files, and React for creating the user interface.",
+    "technologies": ["React", "DynamoDB", "S3"],
     "image": "statements-online.png"
   },
   {
     "id": 4,
     "name": "Daily Blueprint",
     "description": "An internal tool for Restoration Hardware, designed to assist retail store workers in managing their daily schedules. This application includes features for organizing tours, handling walk-in customers, and ensuring efficient time management throughout the day. Built with React, it provides an intuitive and user-friendly interface to streamline store operations.",
+    "technologies": ["React", "GraphQL", "Bryntum Scheduler"],
     "image": "daily-blueprint.png"
   },
   {
     "id": 5,
     "name": "Stanza",
     "description": "A React Native mobile application designed to assist patients diagnosed with fibromyalgia. The app provides tools for tracking symptoms, managing medications, and accessing educational resources. It also includes features for setting reminders, logging daily activities, and connecting with support groups to help patients manage their condition more effectively.",
+    "technologies": ["React Native", "Firebase"],
     "image": "stanza.png"
   },
   {
     "id": 6,
     "name": "Commander Finder",
     "description": "A web application built with Angular that allows users to search for Magic: The Gathering commander cards. Users can view detailed information about each card, including mana cost, card type, and abilities. The app features a clean, responsive design and provides a seamless user experience for Magic: The Gathering enthusiasts.",
+    "technologies": ["Angular", "TypeScript", "RxJS"],
     "websiteURL": "https://tylippe.github.io/commander-finder/",
     "githubURL": "https://github.com/TyLippe/commander-finder",
     "image": "commander-finder.png"
@@ -43,14 +55,16 @@
     "id": 7,
     "name": "Commander Finder API",
     "description": "A RESTful API built with Express to provide data for the Commander Finder web application. The API allows users to search for Magic: The Gathering commander cards and retrieve detailed information about each card.",
-    "websiteURL": "https://github.com/TyLippe/commander-finder-api",
-    "githubURL": "https://commander-finder-api.onrender.com/",
+    "technologies": ["Express", "Node.js"],
+    "websiteURL": "https://commander-finder-api.onrender.com/",
+    "githubURL": "https://github.com/TyLippe/commander-finder-api",
     "image": "commander-finder-api.png"
   },
   {
     "id": 8,
     "name": "Python Mastermind Clone",
     "description": "A Python implementation of the classic Mastermind game. Features a command-line interface.",
+    "technologies": ["Python"],
     "githubURL": "https://github.com/TyLippe/mastermind-clone",
     "image": "mastermind.png"
   },
@@ -58,6 +72,7 @@
     "id": 9,
     "name": "Blog Post Server Side Rendering Demo",
     "description": "A NextJS application that demos using Server Side Rendering to display a list of static blog posts",
+    "technologies": ["NextJS", "TypeScript"],
     "githubURL": "https://github.com/TyLippe/ssr-demo-app",
     "image": "ssr-posts.png"
   }
